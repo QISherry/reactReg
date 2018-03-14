@@ -1,0 +1,134 @@
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 960px;
+  margin: auto;
+}
+i {
+  background: url("../image/sprite.png");
+  background-position: -395px -678px;
+  width: 229px;
+  height: 46px;
+  display: inline-block;
+}
+body {
+  background-color: #fff;
+}
+.main-content {
+  width: 960px;
+  margin: auto;
+  margin-top: 100px;
+}
+.main-content-left {
+  float: left;
+  margin-right: 100px;
+}
+.main-content-right {
+  float: left;
+  width: 275px;
+}
+p {
+  color: #666666;
+}
+.main-content-right > p {
+  float: left;
+  font-size: 14px;
+  line-height: 19px;
+  color: #666666;
+}
+.main-content-right > a {
+  float: right;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 19px;
+  color: #666666;
+}
+.main-content-right > a > i {
+  content: "";
+  width: 10px;
+  height: 13px;
+  background-position: -1268px -509px;
+  position: relative;
+  left: 5px;
+}
+form > input:not(:nth-of-type(3)) {
+  width: 253px;
+  height: 36px;
+  border: 1px solid #aaa;
+  outline: none;
+}
+form > input:nth-of-type(3) {
+  margin-top: 10px;
+}
+form > input {
+  font-size: 14px;
+}
+form > label {
+  font-size: 12px;
+  line-height: 13px;
+}
+form > input:nth-of-type(1),
+form > input:nth-of-type(2) {
+  padding-left: 25px;
+}
+form > i:nth-of-type(1) {
+  background: url("../image/sprite.png");
+  background-position: -1250px -617px;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 33px;
+  right: 50px;
+}
+form > i:nth-of-type(2) {
+  background: url("../image/sprite.png");
+  background-position: -1250px -527px;
+  width: 17px;
+  height: 18px;
+  position: relative;
+  top: 33px;
+  left: 6px;
+}
+form > a {
+  float: right;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 38px;
+  color: #ec454a;
+}
+a:hover {
+  text-decoration: underline;
+}
+form > input:last-of-type {
+  width: 275px;
+  border: none;
+  outline: none;
+  height: 34px;
+  background: linear-gradient(#eb4247, #e2252a);
+  color: #fff;
+  font-weight: bold;
+}
+form > p:last-of-type {
+  margin-top: 15px;
+  font-size: 14px;
+}
+form > p:last-of-type > a {
+  color: #ec454a;
+  text-decoration: none;
+}
+form > p:last-of-type > a:hover {
+  text-decoration: underline;
+}
+.main-content {
+  overflow: hidden;
+  margin-bottom: 90px;
+}
+footer > p {
+  text-align: center;
+  color: #cccccc;
+  font-size: 12px;
+  padding-bottom: 80px;
+}

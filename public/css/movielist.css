@@ -1,0 +1,128 @@
+.movielist-nav>ul>li:nth-of-type(5)
+{
+    background-color: #ef4238;
+}
+.movielist-nav>ul>li:nth-of-type(5)>a
+{
+    color: #fff;
+}
+
+.movie-list-nav
+{
+    width: 760px;
+    height: 60px;
+    margin: auto;
+}
+.movie-list-nav>ul
+{
+    width: 760px;
+    height: 60px;
+}
+.movie-list-nav>ul>li
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.movie-list-explain
+{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.movie-list-explain>p
+{
+    font-size: 12px;
+    color: #9f9f9f;
+    text-align: center;
+}
+.movie-list-explain>p>span
+{
+    color:#ffb617;
+}
+.movie-list-explain>p:first-child
+{
+    padding-top: 33px;
+}
+.movie-list
+{
+    width: 953px;
+    margin: auto;
+    margin-bottom: 113px;
+}
+.movie-list>li>i
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    top: -100px;
+    font-weight: bolder;
+    background-color: #f7f7f7;
+    color: #999999;
+    margin-right: 30px;
+}
+.movie-list>li:nth-of-type(2)>i,.movie-list>li:nth-of-type(3)>i
+{
+    background-color: #ffb400;
+    color: #fff;
+}
+.movie-list>li:nth-of-type(1)>i
+{
+    background: url("../image/huangguan.png");
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.movie-list>li>div
+{
+    float: right;
+    width: 685px;
+    height: 220px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.movie-list>li>div>ul
+{
+    padding-top: 67px;
+}
+.movie-list>li>div>ul>li:first-of-type
+{
+    float: left;
+    line-height: 35px;
+}
+.movie-list>li>div>ul>li:first-of-type>a
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: #595959;
+}
+.movie-list>li>div>ul>li:first-of-type>p:first-child
+{
+    font-size: 18px;
+    color: #333333;
+}
+.movie-list>li>div>ul>li:first-of-type>p:last-child
+{
+    font-size: 16px;
+    color: #999999;
+}
+.movie-list>li>div>ul>li:nth-of-type(2)
+{
+    float: right;
+    line-height: 120px;
+}
+.movie-list>li>div>ul>li:nth-of-type(2)>i
+{
+
+    font-size: 48px;
+    color:#ffb617;
+    font-weight: bold;
+}
+.movie-list>li>div>ul>li:nth-of-type(2)>i>span
+{
+    font-size: 22px;
+}

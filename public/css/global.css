@@ -1,0 +1,374 @@
+body
+{
+    font-family: "Microsoft YaHei","Helvetica","Arial","sans-serif";
+    background-color: #fff;
+}
+h2,h3,h4,h5,h6,p,a,ul,ol,li
+{
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #333333;
+}
+
+
+/*导航*/
+nav
+{
+    width: 100%;
+    height: 82px;
+    background-color: #fff;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+}
+.nav
+{
+    width: 1200px;
+    height: 82px;
+    margin: auto;
+}
+.nav>ul
+{
+    width: 1200px;
+}
+.nav>ul>li
+{
+    float: left;
+    height: 82px;
+    line-height: 82px;
+    text-align: center;
+}
+.nav>ul>li>a
+{
+    color: #333333;
+    font-size: 18px;
+}
+.nav>ul>li:first-child>img
+{
+    vertical-align: middle;
+}
+.nav>ul>li:nth-child(2)
+{
+    margin-left: 8px;
+    margin-right: 45px;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+}
+.nav>ul>li:nth-child(2)>span:first-of-type
+{
+    font-size: 16px;
+}
+.arrow
+{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 5px solid #666;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    margin-left: 8px;
+}
+.nav>ul>li:nth-child(2):hover
+{
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+}
+.nav>ul>li:nth-child(2):hover .arrow
+{
+    transform: rotate(180deg);
+}
+.nav>ul>li:nth-child(2),.nav>ul>li:nth-child(3),.nav>ul>li:nth-child(4),.nav>ul>li:nth-child(5),.nav>ul>li:nth-child(6)
+{
+    width: 80px;
+}
+.nav>ul>li:nth-child(3):hover,.nav>ul>li:nth-child(4):hover,.nav>ul>li:nth-child(5):hover,.nav>ul>li:nth-child(6):hover
+{
+    background-color: #ef4238;
+}
+.nav>ul>li:nth-child(3):hover a,.nav>ul>li:nth-child(4):hover a,.nav>ul>li:nth-child(5):hover a,.nav>ul>li:nth-child(6):hover a
+{
+    color: #fff;
+}
+
+.nav>ul>li:nth-child(6)
+{
+    margin-right: 275px;
+}
+.nav>ul>li:nth-child(7)
+{
+    width: 254px;
+}
+.nav>ul>li:nth-child(7)>form
+{
+    height: 82px;
+    width: 254px;
+}
+.nav>ul>li:nth-child(7)>form>input:first-child
+{
+    width: 188px;
+    height: 38px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding-left: 21px;
+    padding-right: 41px;
+    font-size: 12px;
+    background-color: #faf8fa;
+    color: #a5a4a5;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.nav>ul>li:nth-child(7)>form>input:nth-child(2)
+{
+    background: url("../image/sousuo.png");
+    background-color: #ef4238;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 41px;
+    outline: none;
+    border: none;
+    position: relative;
+    bottom: 68px;
+    left: 112px;
+    border-radius: 50%;
+}
+.nav>ul>li:nth-last-child(1)
+{
+    margin-left: 20px;
+    width: 56px;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+}
+
+.nav>ul>li:nth-last-child(1)>div
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    background: url("../image/7dd82a16316ab32c8359debdb04396ef2897.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 21px;
+    position: relative;
+}
+.nav>ul>li:nth-last-child(1)>div>img
+{
+    background-size: 100%;
+}
+.nav>ul>li:nth-last-child(1)>div>span
+{
+    position: absolute;
+    top: 20px;
+    left: 36px;
+}
+.nav>ul>li:nth-last-child(1):hover
+{
+    border-left:1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+}
+.nav>ul>li:nth-last-child(1):hover .arrow
+{
+    transform: rotate(180deg);
+}
+.login>li
+{
+    border: 1px solid #e8e8e8;
+    border-top: none;
+    line-height: 30px;
+    position: relative;
+    top: 21px;
+    left: -1px;
+    width: 56px;
+    display: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+.nav>ul>li:nth-last-child(1):hover .login>li
+{
+    display: block;
+}
+.login>li>a
+{
+    color: #999999;
+    font-size: 14px;
+}
+.login>li:hover a
+{
+    text-decoration: underline;
+    color: #ef4238;
+}
+.city-list
+{
+    width: 432px;
+    height: 300px;
+    position: relative;
+    left: -1px;
+    border: 1px solid #e8e8e8;
+    border-top: none;
+    overflow-y: scroll;
+    display: none;
+    background-color: #fff;
+}
+.nav>ul>li:nth-child(2):hover .city-list
+{
+    display: block;
+}
+.nav>ul>li:nth-child(2):hover
+{
+    border-bottom: 1px solid #fff;
+}
+.city-list {
+    z-index: 2;
+}
+
+.city-list>p
+{
+    line-height: 58px;
+    display: block;
+    padding-right: 290px;
+    padding-left: 20px;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 14px;
+}
+.city-list>ul
+{
+    overflow: hidden;
+}
+.city-list>ul>li>span
+{
+    float: left;
+    display: block;
+    font-size: 14px;
+    margin-left: 20px;
+    width: 20px;
+    text-align: center;
+    background-color: #e8e8e8;
+    font-weight: bold;
+    line-height: 20px;
+}
+.city-list>ul>li>div
+{
+    float: left;
+    width: 370px;
+    margin-bottom: 16px;
+}
+.city-list>ul>li>div>ul>li
+{
+    float: left;
+    cursor: pointer;
+    padding: 2px 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.city-list>ul>li>div>ul>li:hover
+{
+    background-color: #ef4238;
+    color: #fff;
+}
+
+
+    /*导航后选项*/
+
+.nav-after-container
+{
+    width: 100%;
+    height: 60px;
+    background-color: #47464a;
+    margin-bottom: 40px;
+}
+.nav-after
+{
+    width: 400px;
+    height: 60px;
+    margin: auto;
+}
+.nav-after>ul
+{
+    width: 400px;
+    height: 60px;
+}
+.nav-after>ul>li
+{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.nav-after>ul>li:hover a
+{
+    color: #fff;
+}
+.nav-after>ul>li>a
+{
+    color: #999999;
+    font-size: 16px;
+    line-height: 60px;
+}
+.nav-after>ul>li:first-of-type>a
+{
+    color: #f34d41;
+}
+.nav-after>ul>li:first-of-type>a::after
+{
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 24px;
+    border-bottom: 8px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    right: 45px;
+}
+
+
+
+
+
+
+    /*脚注*/
+footer
+{
+    background-color: #262426;
+    width: 100%;
+    height: 152px;
+}
+footer>p
+{
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+}
+footer>p:first-child
+{
+    padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

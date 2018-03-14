@@ -1,0 +1,250 @@
+.main-left>article:first-of-type>p
+{
+    color: #333;
+    font-size: 16px;
+    margin: 36px 0;
+    line-height: 25px;
+}
+.container
+{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 156px;
+}
+.main-left
+{
+    width: 740px;
+    float: left;
+}
+article
+{
+    width: 740px;
+}
+article>img
+{
+    text-align: center;
+}
+article>h1
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 30px;
+}
+article>span
+{
+    display: block;
+    font-size: 13px;
+    color: #999;
+    margin-top: 26px;
+    margin-bottom: 50px;
+}
+article>span>i
+{
+    background: url(../image/eyes.png);
+    width: 18px;
+    height: 14px;
+    display: inline-block;
+}
+.title
+{
+    margin-bottom: 24px;
+}
+.title>h3
+{
+    font-weight: 200;
+    display: inline-block;
+}
+.title>h3::before
+{
+    width: 4px;
+    height: 18px;
+    margin-right: 6px;
+    background-color: #ef4238;
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+.comment
+{
+    height: 175px;
+    margin-bottom: 60px;
+}
+.commenter-pic
+{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(../image/b5118c9b8d67edb4b971a7f189bb5cbf57099.jpg@100w_100h_1e_1c);
+    background-size: cover;
+    position: relative;
+}
+.commenter-pic>i
+{
+    width: 20px;
+    height: 20px;
+    background: url("../image/v3.png");
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.comment-container
+{
+    width: 660px;
+    float: right;
+}
+.comment-container>span
+{
+    font-size: 16px;
+    color: #333;
+}
+.comment-container>span:nth-of-type(2)
+{
+    font-size: 12px;
+    border: 1px solid #7cc6f9;
+    color: #7cc6f9;
+}
+.comment-container>ul
+{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.comment-container>ul>li:first-of-type>span
+{
+    font-size: 14px;
+    color: #999;
+    display: block;
+    float: left;
+    margin-right: 8px;
+}
+.comment-container>ul>li:nth-of-type(2)>span
+{
+    font-size: 14px;
+    color: #999;
+}
+.comment-container>ul>li:nth-of-type(2)
+{
+    float: left;
+    position: relative;
+    left: 510px;
+    display: none;
+}
+.comment-container>ul>li:last-of-type
+{
+    float: right;
+}
+.comment-container>ul>li:last-of-type>span
+{
+    font-size: 14px;
+    color: #999;
+    display: block;
+    cursor: pointer;
+}
+.comment-container:hover .comment-container>ul>li:nth-of-type(2)
+{
+    display: block;
+}
+.comment-container>ul>li:last-of-type>span::before
+{
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url("../image/thum.png");
+    display: inline-block;
+    position: relative;
+    right: 5px;
+}
+.comment-container>ul>li
+{
+    float: left;
+    font-size: 0;
+}
+.comment-container>ul>li>i:nth-child(1)
+{
+    width: 8px;
+    height: 16px;
+    display: inline-block;
+    background: url("../image/left-star.png");
+}
+.comment-container>ul>li>i:nth-child(2)
+{
+    width: 8px;
+    height: 16px;
+    display: inline-block;
+    background: url("../image/right-star.png");
+    margin-right: 5px;
+}
+.comment-container>p
+{
+    clear: both;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #bfc4ca;
+}
+
+.movie-comment-new>a
+{
+    clear:both;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    color: #f34d41;
+}
+.movie-comment-new>a::after
+{
+    content: "";
+    width: 14px;
+    height: 8px;
+    display: inline-block;
+    background: url("../image/red-arrow2.png");
+    position: relative;
+    left: 5px;
+}
+aside
+{
+    float: right;
+    width: 362px;
+    margin-top: 25px;
+}
+
+
+.movie-list-pic>ul>li
+{
+    float: left;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-right: 20px;
+}
+.movie-list-pic>ul>li>img
+{
+    height: 145px;
+}
+.movie-list-pic>ul>li:nth-child(3n+3)
+{
+    margin-right: 0;
+}
+.movie-list-pic>ul>li>a
+{
+    display: block;
+    color: #333333;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+.movie-list-pic>ul>li>i
+{
+    font-size: 20px;
+    color: #ffb400;
+}
+.movie-list-pic>ul>li>i>span:nth-child(2)
+{
+    font-size: 12px;
+    color: #ffb400;
+}
